@@ -23,6 +23,6 @@
   transform: rotateY(180deg); /* Gira la card 180 grados para ocultar la cara trasera */
 }
 
-.card:hover {
+.card-flip:hover {
   transform: rotateY(180deg); /* Gira la card 180 grados al hacer hover */
 }

@@ -6,8 +6,16 @@
     }
     a{
         color: $white;
+        /*Subrayado animado*/
+        background-image: linear-gradient(currentColor, currentColor);
+        background-position: 0% 100%;
+        background-repeat: no-repeat;
+        background-size: 0% 2px;
+        transition: background-size 0.3s;
         &:hover{
             color:black;
+            /*Subrayado animado*/
+            background-size: 100% 2px;
         }
     }
 }
